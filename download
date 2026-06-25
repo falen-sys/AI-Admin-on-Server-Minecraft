@@ -1,0 +1,12 @@
+# Личные настройки с паролем RCON - НЕ публикуем
+config.yaml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

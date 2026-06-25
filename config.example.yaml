@@ -1,0 +1,17 @@
+# Скопируй этот файл в config.yaml и заполни своими значениями.
+# config.yaml в .gitignore и никогда не попадёт на GitHub.
+
+# Путь к логу сервера. Обычно это <папка_сервера>/logs/latest.log
+log_path: "C:\\path\\to\\your\\server\\logs\\latest.log"
+
+# RCON-настройки (задаются в server.properties твоего сервера)
+rcon_host: "127.0.0.1"
+rcon_port: 25575
+rcon_password: "впиши_свой_пароль_сюда"
+
+# Ollama (локальная нейросеть)
+ollama_url: "http://localhost:11434/api/generate"
+ollama_model: "qwen2.5:3b"
+
+# Как часто проверять новые строки лога (секунды)
+poll_interval: 1.0
